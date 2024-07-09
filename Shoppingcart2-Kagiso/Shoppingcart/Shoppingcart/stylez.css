@@ -22,7 +22,8 @@
 body{
     background: #fff;
     padding: 0 9%;
-    margin: 0;
+    height: 100%;
+    border: 5px;
 }
 /* body.showCart .side-bar{
     top: 0;
