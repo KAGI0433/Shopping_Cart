@@ -196,7 +196,7 @@ body.side-bar{
     position: fixed;
     top: 0;
     right: 0;
-    /* right: -300px; */
+     right: -300px; 
     background-color: var(--accent-color);
     box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease-in-out;
