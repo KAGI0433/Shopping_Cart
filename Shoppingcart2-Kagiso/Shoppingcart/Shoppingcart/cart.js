@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sidebar.classList.toggle('open');
         });
 
-        const closeButton = document.querySelector('.sidebar-close');
+        const closeButton = document.querySelector('.sidebar-close i.fa-close');
         closeButton.addEventListener('click', () => {
             sidebar.classList.remove('open');
         });
