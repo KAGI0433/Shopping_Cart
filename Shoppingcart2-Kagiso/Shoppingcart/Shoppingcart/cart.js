@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartItemList = document.querySelector('.cart-items');
     const cartTotal = document.querySelector('.cart-total');
     const cartIcon = document.querySelector('.cart-icon');
-    const sidebar = document.getElementById('sidebar'); // Corrected: Removed '.' from getElementById
+    const sidebar = document.getElementById('sidebar'); 
 
     let cartItems = [];
     let totalAmount = 0;
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cartItemList.innerHTML = '';
         cartItems.forEach((item, index) => {
             const cartItem = document.createElement('div');
-            cartItem.classList.add('cart-item', 'individual-cart-item'); // Corrected: Removed '.' from class name
+            cartItem.classList.add('cart-item', 'individual-cart-item'); 
             cartItem.innerHTML = `
                 <span>(${item.quantity}x) ${item.name}</span>
                 <span class="cart-item-price">$${(item.price * item.quantity).toFixed(2)}</span>
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('open');
     });
 
-    const closeButton = document.querySelector('.sidebar-close i.fa-close'); // Corrected: Specific icon inside close button
+    const closeButton = document.querySelector('.sidebar-close i.fa-close');
     closeButton.addEventListener('click', () => {
         sidebar.classList.remove('open');
     });
