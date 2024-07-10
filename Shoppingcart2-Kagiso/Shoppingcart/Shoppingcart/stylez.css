@@ -23,17 +23,6 @@ body{
     padding: 0 9%;
    
 }
-/* body.showCart .side-bar{
-    top: 0;
-    bottom: 0;
-    right: 0;
-}
-body .carts .container{
-    transform: translateX(-200px);
-}
-body.side-bar{
-    transform: translateX(-200px);
-} */
 .header{
     padding: 1rem 0;
 }
@@ -195,11 +184,11 @@ body.side-bar{
     height: 100%;
     position: fixed;
     top: 0;
-    right: -300px; /* Initially off-screen */
+    right: -300px; 
     background-color: var(--accent-color);
     box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
-    transition: right 0.3s ease-in-out; /* Smooth transition for opening and closing */
-    z-index: 1000; /* Ensure sidebar appears above other content */
+    transition: right 0.3s ease-in-out; 
+    z-index: 1000; 
     padding: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
