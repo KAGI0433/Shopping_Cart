@@ -1,10 +1,9 @@
-
-SHOPPING CART
+## SHOPPING CART
 
 A simple and functional shopping cart web application built with [technologies used - e.g. React, Node.js, Express, MongoDB, etc.]. This project allows users to browse products, add items to their cart, update quantities, and remove items before checkout.
 
 
-FEATURES
+## FEATURES
 
 View a list of products with images, names, prices, and descriptions.
 
@@ -18,7 +17,7 @@ Responsive design for desktop and mobile.
 
 
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 Frontend: [React / Vue / Angular / plain HTML/CSS/JS or specify]
 
@@ -32,15 +31,15 @@ API: [REST API or GraphQL]
 
 Other libraries: [Bootstrap, Material UI, Axios, etc.]
 
-GETTING STARTED
+## GETTING STARTED
 
-PREERQUISITES
+## PREREQUISITES
 
 Node.js installed (version X.X.X or above)
 
 npm or yarn package manager
 
-INSTALLATION
+## INSTALLATION
 
 Clone the repository:
 
@@ -63,7 +62,7 @@ Open your browser and visit:
 http://localhost:3000
 
 
-USAGE
+## USAGE
 
 Browse products on the homepage.
 
@@ -76,7 +75,7 @@ Modify item quantities or remove items.
 Proceed to checkout (if implemented).
 
 
-FOLDER STRUCTURE
+## FOLDER STRUCTURE
 
 Shopping_Cart/
 
@@ -99,6 +98,6 @@ Shopping_Cart/
 └── README.md
 
 
-CONTRIBUTIONING
+## CONTRIBUTIONING
 
 Contributions are welcome! Please open an issue or submit a pull request.
